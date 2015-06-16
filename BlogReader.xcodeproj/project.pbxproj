@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		D61214311B2FFFF70055292D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D61214301B2FFFF70055292D /* main.m */; };
 		D61214341B2FFFF70055292D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D61214331B2FFFF70055292D /* AppDelegate.m */; };
-		D61214371B2FFFF70055292D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61214361B2FFFF70055292D /* ViewController.m */; };
-		D612143A1B2FFFF70055292D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61214381B2FFFF70055292D /* Main.storyboard */; };
 		D612143C1B2FFFF70055292D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D612143B1B2FFFF70055292D /* Images.xcassets */; };
 		D612143F1B2FFFF70055292D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D612143D1B2FFFF70055292D /* LaunchScreen.xib */; };
 		D612144B1B2FFFF70055292D /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D612144A1B2FFFF70055292D /* BlogReaderTests.m */; };
+		D61214551B3000850055292D /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61214541B3000850055292D /* MainStoryBoard.storyboard */; };
+		D61214581B3003CB0055292D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61214571B3003CB0055292D /* TableViewController.m */; };
+		D612145B1B306FD20055292D /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = D612145A1B306FD20055292D /* BlogPost.m */; };
+		D612145D1B30A7720055292D /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = D612145C1B30A7720055292D /* treehouse.png */; };
+		D6A4CFAF1B30BD8000848F65 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4CFAE1B30BD8000848F65 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		D61214301B2FFFF70055292D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D61214321B2FFFF70055292D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D61214331B2FFFF70055292D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D61214351B2FFFF70055292D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D61214361B2FFFF70055292D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D61214391B2FFFF70055292D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D612143B1B2FFFF70055292D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D612143E1B2FFFF70055292D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D61214441B2FFFF70055292D /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61214491B2FFFF70055292D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D612144A1B2FFFF70055292D /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+		D61214541B3000850055292D /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		D61214561B3003CB0055292D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D61214571B3003CB0055292D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D61214591B306FD20055292D /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		D612145A1B306FD20055292D /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		D612145C1B30A7720055292D /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = SOURCE_ROOT; };
+		D6A4CFAD1B30BD8000848F65 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D6A4CFAE1B30BD8000848F65 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +91,13 @@
 			children = (
 				D61214321B2FFFF70055292D /* AppDelegate.h */,
 				D61214331B2FFFF70055292D /* AppDelegate.m */,
-				D61214351B2FFFF70055292D /* ViewController.h */,
-				D61214361B2FFFF70055292D /* ViewController.m */,
-				D61214381B2FFFF70055292D /* Main.storyboard */,
+				D61214561B3003CB0055292D /* TableViewController.h */,
+				D61214571B3003CB0055292D /* TableViewController.m */,
+				D61214541B3000850055292D /* MainStoryBoard.storyboard */,
+				D61214591B306FD20055292D /* BlogPost.h */,
+				D612145A1B306FD20055292D /* BlogPost.m */,
+				D6A4CFAD1B30BD8000848F65 /* WebViewController.h */,
+				D6A4CFAE1B30BD8000848F65 /* WebViewController.m */,
 				D612143B1B2FFFF70055292D /* Images.xcassets */,
 				D612143D1B2FFFF70055292D /* LaunchScreen.xib */,
 				D612142E1B2FFFF70055292D /* Supporting Files */,
@@ -96,6 +108,7 @@
 		D612142E1B2FFFF70055292D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D612145C1B30A7720055292D /* treehouse.png */,
 				D612142F1B2FFFF70055292D /* Info.plist */,
 				D61214301B2FFFF70055292D /* main.m */,
 			);
@@ -199,7 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D612143A1B2FFFF70055292D /* Main.storyboard in Resources */,
+				D612145D1B30A7720055292D /* treehouse.png in Resources */,
+				D61214551B3000850055292D /* MainStoryBoard.storyboard in Resources */,
 				D612143F1B2FFFF70055292D /* LaunchScreen.xib in Resources */,
 				D612143C1B2FFFF70055292D /* Images.xcassets in Resources */,
 			);
@@ -219,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61214371B2FFFF70055292D /* ViewController.m in Sources */,
 				D61214341B2FFFF70055292D /* AppDelegate.m in Sources */,
+				D6A4CFAF1B30BD8000848F65 /* WebViewController.m in Sources */,
+				D61214581B3003CB0055292D /* TableViewController.m in Sources */,
 				D61214311B2FFFF70055292D /* main.m in Sources */,
+				D612145B1B306FD20055292D /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +260,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D61214381B2FFFF70055292D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D61214391B2FFFF70055292D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D612143D1B2FFFF70055292D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +424,7 @@
 				D61214501B2FFFF70055292D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D61214511B2FFFF70055292D /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				D61214531B2FFFF70055292D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
